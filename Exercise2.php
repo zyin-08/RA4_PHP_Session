@@ -77,7 +77,7 @@
     <p>
         worker: <?php echo $_SESSION['worker']; ?><br>
         units milk: <?php echo $_SESSION['inventory']['milk']; ?><br>
-        units soft drink: <?php echo $_SESSION['inventory']['soft_drink']; ?>
+        units soft drink: <?php echo $_SESSION['inventory']['soft_drink']; ?><br>
         <?php echo $error; ?>
     </p>
 
